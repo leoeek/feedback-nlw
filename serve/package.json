@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "dev": "ts-node-dev src/server.ts"
+    "build": "tsc",
+    "dev": "ts-node-dev src/server.ts",
+    "start": "node dist/server.js"
   },
   "devDependencies": {
     "@swc/core": "^1.2.177",
