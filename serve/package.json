@@ -7,7 +7,8 @@
     "test": "jest",
     "build": "tsc",
     "dev": "ts-node-dev src/server.ts",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "studio": "prisma studio"
   },
   "devDependencies": {
     "@swc/core": "^1.2.177",
